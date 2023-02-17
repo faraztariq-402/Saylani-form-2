@@ -1,0 +1,156 @@
+@media screen and (max-width:400px) {
+    .logo img{
+        height: 80px;
+        width: 150px;
+  
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .heading{
+        
+        display: flex;
+        justify-content:center ;
+    }
+    .para{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .inputs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+        
+    }
+    .inputs input{
+        height: 110px;
+        width: 300px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+   .button{
+    display: flex;
+    justify-content: center;
+   }
+   .button input{
+    margin-bottom: 50px;
+    color: white;
+    background-color: rgb(99, 11, 182);
+border-radius: 7px;
+margin-top: 20px;
+
+    width: 300px;
+    height: 40px;
+   }
+}
+@media screen and (min-width:400px) and (max-width:1040px){
+    .logo img{
+        height: 100px;
+        width: 200px;
+     
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .heading{
+      
+        display: flex;
+        justify-content:center ;
+    }
+    .para{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .inputs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        
+    }
+
+    .inputs input{
+        height: 90px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 15px;
+border-radius: 10px;
+        margin-right: 20px;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+       }
+       .button input{
+        color: white;
+border-radius: 7px;
+margin-bottom: 50px;
+margin-top: 20px;
+
+        background-color: rgb(99, 11, 182);
+        width: 400px;
+        height: 40px;
+       }
+}
+@media screen and (min-width:1040px){
+    .logo img{
+        height: 100px;
+        width: 250px;
+     
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .heading{
+        
+        display: flex;
+        justify-content:center ;
+    }
+    .para{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .inputs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+        
+    }
+    .inputs input{
+        height: 70px;
+        width: 620px;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        justify-content: center;
+        margin-right: 20px;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+       }
+       .button input{
+        color: rgb(255, 255, 255);
+        background-color: rgb(99, 11, 182);
+border-radius: 7px;
+        height: 40px;
+        width: 500px;
+    margin-top: 20px;
+
+    margin-bottom: 50px;
+
+       }
+    }
